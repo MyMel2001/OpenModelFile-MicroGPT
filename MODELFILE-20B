@@ -218,14 +218,3 @@ PARAMETER top_k 20
 PARAMETER top_p 0.95
 PARAMETER num_ctx 115000
 PARAMETER repeat_penalty 1
-PARAMETER stop <|im_start|>
-PARAMETER stop <|start|>
-PARAMETER stop <|end|>
-PARAMETER stop {{- end -}}
-PARAMETER stop {{ end -}}
-PARAMETER stop {{- end }}
-PARAMETER stop {{- else -}}
-PARAMETER stop {{ else -}}
-PARAMETER stop {{- else }}
-PARAMETER stop {{- if
-PARAMETER stop <|im_end|>
